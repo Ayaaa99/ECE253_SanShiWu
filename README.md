@@ -1,6 +1,6 @@
 # ECE253
 
-## Retinex-Net
+## Low Light: Retinex-Net
 
 ### Requirements
 - Python  
