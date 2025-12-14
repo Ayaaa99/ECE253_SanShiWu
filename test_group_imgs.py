@@ -3,7 +3,7 @@ from fast_plate_ocr import LicensePlateRecognizer
 
 image_folder = 'images/corrected_angle_dataset'
 valid_extensions = {'.jpg', '.jpeg', '.png', '.bmp', '.gif'}
-output_file = 'corrected_angle_dataset_results.txt'
+output_file = 'results/corrected_angle_dataset_results.txt'
 
 image_files = [
     f for f in os.listdir(image_folder)
