@@ -33,6 +33,7 @@ python lowlight_enhance.py \
 Set `INPUT_DIR` and `OUTPUT_DIR` inside the script to correct paths and run the code below.
 ```shell
 python 2_restore_wiener.py
+```
 
 ### CLS Filter Usage
 Set `INPUT_DIR` and `OUTPUT_DIR` inside the script to correct paths and run the code below.
