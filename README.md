@@ -7,9 +7,9 @@
 - PIL
 - fast-plate-ocr
 
-## Low Light: Retinex-Net
+## Low Light
 
-### Testing Usage
+### Retinex-Net Testing Usage
 ```shell
 python main.py \
     --use_gpu=1 \                           # use gpu or not
@@ -21,27 +21,23 @@ python main.py \
     --decom=0                               # save only enhanced results or together with decomposition results
 ``` 
 
-## Low Light: CLAHE
-
-### Usage
+### CLAHE Usage
 ```shell
 python lowlight_enhance.py \
     --test_dir /path/to/your/test/dir/ \
     --save_dir /path/to/save/results/
 ``` 
 
-## Angle Correction: Hough Transform
+## Angle Correction
 
-### Usage
+### Hough Transform Usage
 Set INPUT_FOLDER and OUTPUT_FOLDER to correct paths and run the code below.
 ```shell
 python correct_angle.py
 ``` 
-
-## Angle Correction: Model Fine Tune
-
-### Usage
+### Model Fine Tune Usage
 Run the Image_rotation_finetune.ipynb file following instructions inside the file
+
 
 ## OCR Recognition Accuracy Testing
 ### Test Single Image
