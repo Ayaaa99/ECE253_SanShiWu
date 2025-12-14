@@ -32,20 +32,20 @@ python lowlight_enhance.py \
 ### Wiener Filter Usage
 Set `INPUT_DIR` and `OUTPUT_DIR` inside the script to correct paths and run the code below.
 ```shell
-python 2_restore_wiener.py
+python restore_wiener.py
 ```
 
 ### CLS Filter Usage
 Set `INPUT_DIR` and `OUTPUT_DIR` inside the script to correct paths and run the code below.
 ```shell
-python 3_restore_cls.py
+python restore_cls.py
 ```
 
 ### Alternative Smoothing & Polishing Usage
 Set paths inside the scripts and run the code below for alternative results.
 ```shell
-python 4_smooth.py
-python 3_polish_images.py
+python smooth.py
+python polish_images.py
 ```
 
 
